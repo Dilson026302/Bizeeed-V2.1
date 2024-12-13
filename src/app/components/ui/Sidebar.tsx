@@ -14,58 +14,58 @@ const Sidebar: React.FC<SidebarProps> = ({ isCollapsed, onToggle }) => {
     {
       name: "Dashboard Home",
       path: "/dashboard",
-      icon: <img src="./assets/icons/home-icon.png" alt="Dashboard" />,
+      icon: <img src="public/assets/icons/home-icon.png" alt="Dashboard" />,
       end: true,
     },
     {
       name: "Social Accounts Linking",
       path: "/dashboard/social-accounts",
-      icon: <img src="./assets/icons/connect-icon.png" alt="Social Accounts" />,
+      icon: <img src="/assets/icons/connect-icon.png" alt="Social Accounts" />,
     },
     {
       name: "Publishing & Scheduling",
       path: "/dashboard/publishing",
-      icon: <img src="./assets/icons/schedule-icon.png" alt="Publishing & Scheduling" />,
+      icon: <img src="/assets/icons/schedule-icon.png" alt="Publishing & Scheduling" />,
     },
     {
       name: "Analytics",
       path: "/dashboard/analytics-home",
-      icon: <img src="./assets/icons/analytics-icon.png" alt="Analytics" />,
+      icon: <img src="/assets/icons/analytics-icon.png" alt="Analytics" />,
     },
     {
       name: "Digital Marketing",
       path: "/dashboard/digital-marketing",
-      icon: <img src="./assets/icons/digitalmarketing-icon.png" alt="Digital Marketing" />,
+      icon: <img src="/assets/icons/digitalmarketing-icon.png" alt="Digital Marketing" />,
     },
     {
       name: "AI Assistant",
       path: "/dashboard/ai-assistant",
-      icon: <img src="./assets/icons/brainstorm-icon.png" alt="AI Assistant" />,
+      icon: <img src="/assets/icons/brainstorm-icon.png" alt="AI Assistant" />,
     },
     {
       name: "Influencer Management",
       path: "/dashboard/influencer-managment",
-      icon: <img src="./assets/icons/heart-icon.png" alt="Influencer Management" />,
+      icon: <img src="/assets/icons/heart-icon.png" alt="Influencer Management" />,
     },
     {
       name: "Competitor Analysis",
       path: "/dashboard/competitor-analysis",
-      icon: <img src="./assets/icons/competitoranalysis-icon.png" alt="Competitor Analysis" />,
+      icon: <img src="/assets/icons/competitoranalysis-icon.png" alt="Competitor Analysis" />,
     },
     {
       name: "Product Development",
       path: "/dashboard/product-development",
-      icon: <img src="./assets/icons/quillpen-icon.png" alt="Product Development" />,
+      icon: <img src="/assets/icons/quillpen-icon.png" alt="Product Development" />,
     },
     {
       name: "Website Management",
       path: "/dashboard/website-management",
-      icon: <img src="./assets/icons/website-icon.png" alt="Website Management" />,
+      icon: <img src="assets/icons/website-icon.png" alt="Website Management" />,
     },
     {
       name: "Team & Tasks",
       path: "/dashboard/team-tasks",
-      icon: <img src="./assets/icons/layers-icon.png" alt="Team & Tasks" />,
+      icon: <img src="assets/icons/layers-icon.png" alt="Team & Tasks" />,
     },
   ];
   
